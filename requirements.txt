@@ -1,0 +1,8 @@
+# File containing Python dependencies
+
+-- User must install / run:
+
+-- 1) Click: pip install Click / pip3 install Click
+-- 2) pipenv install sqlachemy 
+-- 3) pip install Alembic
+
