@@ -58,11 +58,3 @@ class Genre(Base):
                f'name={self.name})'
 
 Base.metadata.create_all(engine)
-
-def create_venue():
-    venue_name = input("Enter the venues name: ")
-    venue_location = input("Enter the location: ")
-    venue = Venue(name=venue_name, location = venue_location)
-    mysession.add(venue)
-    mysession.commit()
-    print(f"New venue {venue_name} created successfully")
